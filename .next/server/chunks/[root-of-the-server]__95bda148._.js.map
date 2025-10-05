@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/pc/Desktop/final/src/app/api/optimal-settlements/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\r\nimport optimalSettlements from '@/lib/optimal-settlement-data.json';\r\n\r\nexport async function GET() {\r\n  return NextResponse.json(optimalSettlements);\r\n}\r\n"],"names":[],"mappings":";;;AAAA;AACA;;;AAEO,eAAe;IACpB,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC,mHAAA,CAAA,UAAkB;AAC7C","debugId":null}}]
+}

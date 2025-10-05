@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        #map {
+            height: 100vh;
+            width: 100vw;
+        }
+        .city-popup {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-width: 200px;
+        }
+        .city-name {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .city-info {
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Sample city data
+        const cities = [
+            { id: 1, name: "New York", lat: 40.7128, lng: -74.0060, population: 8336817, z_metric: 0.8 },
+            { id: 2, name: "London", lat: 51.5074, lng: -0.1278, population: 8982000, z_metric: 0.6 },
+            { id: 3, name: "Tokyo", lat: 35.6762, lng: 139.6503, population: 13929286, z_metric: 0.9 },
+            { id: 4, name: "Paris", lat: 48.8566, lng: 2.3522, population: 2161000, z_metric: 0.4 },
+            { id: 5, name: "Sydney", lat: -33.8688, lng: 151.2093, population: 5312163, z_metric: 0.7 }
+        ];
+
+        // Initialize map
+        const map = L.map('map').setView([20, 0], 2);
+
+        // Add tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Helper function to get marker color
+        function getMarkerColor(z_metric) {
+            const hue = (1 - z_metric) * 120;
+            return `hsl(${hue}, 90%, 45%)`;
+        }
+
+        // Add city markers
+        cities.forEach(city => {
+            const marker = L.circleMarker([city.lat, city.lng], {
+                radius: 12,
+                fillColor: getMarkerColor(city.z_metric),
+                color: 'white',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+            }).addTo(map);
+
+            // Add popup
+            const popupContent = `
+                <div class="city-popup">
+                    <div class="city-name">${city.name}</div>
+                    <div class="city-info">
+                        <div>Population: ${city.population.toLocaleString()}</div>
+                        <div>Z-Metric: ${city.z_metric}</div>
+                    </div>
+                </div>
+            `;
+            
+            marker.bindPopup(popupContent);
+        });
+    </script>
+</body>
+</html>

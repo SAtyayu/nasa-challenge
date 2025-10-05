@@ -1,0 +1,503 @@
+
+[
+  {
+    "id": 1,
+    "name": "Tokyo",
+    "latitude": 35.6895,
+    "longitude": 139.6917,
+    "population": 37435191,
+    "land_type": "Urban",
+    "built_up_area_m2": 622000000,
+    "z_metric": 0.85
+  },
+  {
+    "id": 2,
+    "name": "Delhi",
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "population": 29399141,
+    "land_type": "Urban",
+    "built_up_area_m2": 1484000000,
+    "z_metric": 0.92
+  },
+  {
+    "id": 3,
+    "name": "Shanghai",
+    "latitude": 31.2304,
+    "longitude": 121.4737,
+    "population": 26317104,
+    "land_type": "Urban",
+    "built_up_area_m2": 1350000000,
+    "z_metric": 0.88
+  },
+  {
+    "id": 4,
+    "name": "São Paulo",
+    "latitude": -23.5505,
+    "longitude": -46.6333,
+    "population": 21846507,
+    "land_type": "Urban",
+    "built_up_area_m2": 1521000000,
+    "z_metric": 0.78
+  },
+  {
+    "id": 5,
+    "name": "Mexico City",
+    "latitude": 19.4326,
+    "longitude": -99.1332,
+    "population": 21671908,
+    "land_type": "Urban",
+    "built_up_area_m2": 1485000000,
+    "z_metric": 0.81
+  },
+  {
+    "id": 6,
+    "name": "Cairo",
+    "latitude": 30.0444,
+    "longitude": 31.2357,
+    "population": 20484965,
+    "land_type": "Urban",
+    "built_up_area_m2": 528000000,
+    "z_metric": 0.95
+  },
+  {
+    "id": 7,
+    "name": "Mumbai",
+    "latitude": 19.0760,
+    "longitude": 72.8777,
+    "population": 20185064,
+    "land_type": "Urban",
+    "built_up_area_m2": 603400000,
+    "z_metric": 0.91
+  },
+  {
+    "id": 8,
+    "name": "Beijing",
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "population": 20035455,
+    "land_type": "Urban",
+    "built_up_area_m2": 1641000000,
+    "z_metric": 0.89
+  },
+  {
+    "id": 9,
+    "name": "Osaka",
+    "latitude": 34.6937,
+    "longitude": 135.5023,
+    "population": 19222665,
+    "land_type": "Urban",
+    "built_up_area_m2": 223000000,
+    "z_metric": 0.75
+  },
+  {
+    "id": 10,
+    "name": "New York",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "population": 18804000,
+    "land_type": "Urban",
+    "built_up_area_m2": 1213366000,
+    "z_metric": 0.65
+  },
+  {
+    "id": 11,
+    "name": "Karachi",
+    "latitude": 24.8607,
+    "longitude": 67.0011,
+    "population": 15741000,
+    "land_type": "Urban",
+    "built_up_area_m2": 352700000,
+    "z_metric": 0.93
+  },
+  {
+    "id": 12,
+    "name": "Buenos Aires",
+    "latitude": -34.6037,
+    "longitude": -58.3816,
+    "population": 15057000,
+    "land_type": "Urban",
+    "built_up_area_m2": 203000000,
+    "z_metric": 0.72
+  },
+  {
+    "id": 13,
+    "name": "Chongqing",
+    "latitude": 29.5630,
+    "longitude": 106.5516,
+    "population": 15354000,
+    "land_type": "Industrial",
+    "built_up_area_m2": 82403000,
+    "z_metric": 0.87
+  },
+  {
+    "id": 14,
+    "name": "Istanbul",
+    "latitude": 41.0082,
+    "longitude": 28.9784,
+    "population": 14968000,
+    "land_type": "Urban",
+    "built_up_area_m2": 534300000,
+    "z_metric": 0.79
+  },
+  {
+    "id": 15,
+    "name": "Kolkata",
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "population": 14755000,
+    "land_type": "Urban",
+    "built_up_area_m2": 185000000,
+    "z_metric": 0.90
+  },
+  {
+    "id": 16,
+    "name": "Manila",
+    "latitude": 14.5995,
+    "longitude": 120.9842,
+    "population": 13699000,
+    "land_type": "Urban",
+    "built_up_area_m2": 63800000,
+    "z_metric": 0.86
+  },
+  {
+    "id": 17,
+    "name": "Lagos",
+    "latitude": 6.5244,
+    "longitude": 3.3792,
+    "population": 13904000,
+    "land_type": "Urban",
+    "built_up_area_m2": 117128000,
+    "z_metric": 0.94
+  },
+  {
+    "id": 18,
+    "name": "Rio de Janeiro",
+    "latitude": -22.9068,
+    "longitude": -43.1729,
+    "population": 13374000,
+    "land_type": "Urban",
+    "built_up_area_m2": 122100000,
+    "z_metric": 0.76
+  },
+  {
+    "id": 19,
+    "name": "Tianjin",
+    "latitude": 39.0842,
+    "longitude": 117.2008,
+    "population": 13396000,
+    "land_type": "Industrial",
+    "built_up_area_m2": 11919000,
+    "z_metric": 0.88
+  },
+  {
+    "id": 20,
+    "name": "Kinshasa",
+    "latitude": -4.4419,
+    "longitude": 15.2663,
+    "population": 13171000,
+    "land_type": "Urban",
+    "built_up_area_m2": 9965000,
+    "z_metric": 0.84
+  },
+  {
+    "id": 21,
+    "name": "Guangzhou",
+    "latitude": 23.1291,
+    "longitude": 113.2644,
+    "population": 13081000,
+    "land_type": "Urban",
+    "built_up_area_m2": 7434000,
+    "z_metric": 0.87
+  },
+  {
+    "id": 22,
+    "name": "Los Angeles",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "population": 12447000,
+    "land_type": "Suburban",
+    "built_up_area_m2": 130200000,
+    "z_metric": 0.68
+  },
+  {
+    "id": 23,
+    "name": "Moscow",
+    "latitude": 55.7558,
+    "longitude": 37.6173,
+    "population": 12506000,
+    "land_type": "Urban",
+    "built_up_area_m2": 251100000,
+    "z_metric": 0.55
+  },
+  {
+    "id": 24,
+    "name": "Shenzhen",
+    "latitude": 22.5431,
+    "longitude": 114.0579,
+    "population": 12356000,
+    "land_type": "Industrial",
+    "built_up_area_m2": 1997000,
+    "z_metric": 0.86
+  },
+  {
+    "id": 25,
+    "name": "Lahore",
+    "latitude": 31.5204,
+    "longitude": 74.3587,
+    "population": 12188000,
+    "land_type": "Urban",
+    "built_up_area_m2": 1772000,
+    "z_metric": 0.92
+  },
+  {
+    "id": 26,
+    "name": "Bangalore",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "population": 11874000,
+    "land_type": "Urban",
+    "built_up_area_m2": 741000,
+    "z_metric": 0.83
+  },
+  {
+    "id": 27,
+    "name": "Paris",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "population": 10901000,
+    "land_type": "Urban",
+    "built_up_area_m2": 105400,
+    "z_metric": 0.62
+  },
+  {
+    "id": 28,
+    "name": "Bogotá",
+    "latitude": 4.7110,
+    "longitude": -74.0721,
+    "population": 10778000,
+    "land_type": "Urban",
+    "built_up_area_m2": 1775000,
+    "z_metric": 0.45
+  },
+  {
+    "id": 29,
+    "name": "Jakarta",
+    "latitude": -6.2088,
+    "longitude": 106.8456,
+    "population": 10770000,
+    "land_type": "Urban",
+    "built_up_area_m2": 664000,
+    "z_metric": 0.89
+  },
+  {
+    "id": 30,
+    "name": "Chennai",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "population": 10728000,
+    "land_type": "Urban",
+    "built_up_area_m2": 426000,
+    "z_metric": 0.91
+  },
+  {
+    "id": 31,
+    "name": "Lima",
+    "latitude": -12.0464,
+    "longitude": -77.0428,
+    "population": 10555000,
+    "land_type": "Urban",
+    "built_up_area_m2": 267200,
+    "z_metric": 0.70
+  },
+  {
+    "id": 32,
+    "name": "Bangkok",
+    "latitude": 13.7563,
+    "longitude": 100.5018,
+    "population": 10378000,
+    "land_type": "Urban",
+    "built_up_area_m2": 1568700,
+    "z_metric": 0.85
+  },
+  {
+    "id": 33,
+    "name": "Seoul",
+    "latitude": 37.5665,
+    "longitude": 126.9780,
+    "population": 9963000,
+    "land_type": "Urban",
+    "built_up_area_m2": 605200,
+    "z_metric": 0.71
+  },
+  {
+    "id": 34,
+    "name": "Nagoya",
+    "latitude": 35.1815,
+    "longitude": 136.9066,
+    "population": 9557000,
+    "land_type": "Industrial",
+    "built_up_area_m2": 326450,
+    "z_metric": 0.73
+  },
+  {
+    "id": 35,
+    "name": "Hyderabad",
+    "latitude": 17.3850,
+    "longitude": 78.4867,
+    "population": 9482000,
+    "land_type": "Urban",
+    "built_up_area_m2": 650000,
+    "z_metric": 0.88
+  },
+  {
+    "id": 36,
+    "name": "London",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "population": 9226000,
+    "land_type": "Urban",
+    "built_up_area_m2": 1572000,
+    "z_metric": 0.60
+  },
+  {
+    "id": 37,
+    "name": "Tehran",
+    "latitude": 35.6892,
+    "longitude": 51.3890,
+    "population": 9033000,
+    "land_type": "Urban",
+    "built_up_area_m2": 730000,
+    "z_metric": 0.82
+  },
+  {
+    "id": 38,
+    "name": "Chicago",
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "population": 8865000,
+    "land_type": "Suburban",
+    "built_up_area_m2": 606100,
+    "z_metric": 0.66
+  },
+  {
+    "id": 39,
+    "name": "Chengdu",
+    "latitude": 30.5728,
+    "longitude": 104.0668,
+    "population": 8813000,
+    "land_type": "Urban",
+    "built_up_area_m2": 12390,
+    "z_metric": 0.84
+  },
+  {
+    "id": 40,
+    "name": "Nanjing",
+    "latitude": 32.0603,
+    "longitude": 118.7969,
+    "population": 8436000,
+    "land_type": "Urban",
+    "built_up_area_m2": 6597,
+    "z_metric": 0.83
+  },
+  {
+    "id": 41,
+    "name": "Wuhan",
+    "latitude": 30.5928,
+    "longitude": 114.3055,
+    "population": 8363000,
+    "land_type": "Industrial",
+    "built_up_area_m2": 8494,
+    "z_metric": 0.85
+  },
+  {
+    "id": 42,
+    "name": "Ho Chi Minh City",
+    "latitude": 10.8231,
+    "longitude": 106.6297,
+    "population": 8244000,
+    "land_type": "Urban",
+    "built_up_area_m2": 2095,
+    "z_metric": 0.87
+  },
+  {
+    "id": 43,
+    "name": "Luanda",
+    "latitude": -8.8399,
+    "longitude": 13.2894,
+    "population": 8044000,
+    "land_type": "Urban",
+    "built_up_area_m2": 113,
+    "z_metric": 0.80
+  },
+  {
+    "id": 44,
+    "name": "Ahmedabad",
+    "latitude": 23.0225,
+    "longitude": 72.5714,
+    "population": 7886000,
+    "land_type": "Urban",
+    "built_up_area_m2": 466,
+    "z_metric": 0.93
+  },
+  {
+    "id": 45,
+    "name": "Kuala Lumpur",
+    "latitude": 3.1390,
+    "longitude": 101.6869,
+    "population": 7877000,
+    "land_type": "Urban",
+    "built_up_area_m2": 243,
+    "z_metric": 0.81
+  },
+  {
+    "id": 46,
+    "name": "Sydney",
+    "latitude": -33.8688,
+    "longitude": 151.2093,
+    "population": 5312163,
+    "land_type": "Suburban",
+    "built_up_area_m2": 12368,
+    "z_metric": 0.40
+  },
+  {
+    "id": 47,
+    "name": "Amazon Rainforest",
+    "latitude": -3.4653,
+    "longitude": -62.2159,
+    "population": 200,
+    "land_type": "Greenspace",
+    "built_up_area_m2": 1000,
+    "z_metric": 0.05
+  },
+  {
+    "id": 48,
+    "name": "Chernobyl Exclusion Zone",
+    "latitude": 51.3896,
+    "longitude": 30.0991,
+    "population": 1000,
+    "land_type": "Rural",
+    "built_up_area_m2": 50000,
+    "z_metric": 0.50
+  },
+  {
+    "id": 49,
+    "name": "Singapore",
+    "latitude": 1.3521,
+    "longitude": 103.8198,
+    "population": 5685800,
+    "land_type": "Urban",
+    "built_up_area_m2": 728,
+    "z_metric": 0.70
+  },
+  {
+    "id": 50,
+    "name": "Helsinki",
+    "latitude": 60.1699,
+    "longitude": 24.9384,
+    "population": 656245,
+    "land_type": "Greenspace",
+    "built_up_area_m2": 214,
+    "z_metric": 0.25
+  }
+]

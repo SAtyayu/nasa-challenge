@@ -1,0 +1,9 @@
+{
+  "[project]/src/components/map/fresh-city-map.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/map/fresh-city-map.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_map_fresh-city-map_tsx_bc482459._.js",
+      "static/chunks/src_components_map_fresh-city-map_tsx_e555605c._.js"
+    ]
+  }
+}
